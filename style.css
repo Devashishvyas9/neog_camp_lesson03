@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&family=Lato&family=Roboto&family=Source+Sans+Pro:wght@400;900&display=swap');
 :root {
-    --primary-color: #7c3aed
+    --primary-color: #7c3aed;
+    --dark-gray: #475569;
 }
 
 body {
@@ -34,7 +35,6 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
-    color: white;
 }
 
 .link-primary {
@@ -62,4 +62,54 @@ hr {
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+
+/* Navigation */
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    /* border-top-left-radius: 3rem; */
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+
+/* Header  */
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    padding: 1rem;
+    text-align: center;
+    color: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color)
 }
