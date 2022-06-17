@@ -153,3 +153,8 @@ p {
 .footer .link {
     color: white;
 }
+
+.im {
+    width: 100%;
+    height: auto;
+}
